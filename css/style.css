@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #592922;
+    color: rgb(255, 255, 255);
+}
+
+header {
+    font-family: 'Permanent Marker', cursive;
+    background-color: #A6220D;
+    color: rgb(255, 247, 247);
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 16vh;
+}
+
+header > h1 {
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    font-size: 45px;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+    background-color: #D92C11;
+}
+
+nav ul li a {
+   color: white;
+   padding: 8px;
+   margin: 8px;
+   text-decoration: none;
+   
+}
+
+.main {
+    background-color: #f8f4f3;
+    margin: 100px;
+    margin-top: 25px;
+    margin-bottom: auto;
+    border: 10% solid #fffbfa;
+    padding-left: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+article {
+    padding: 12px;
+    margin: 10px;
+}
+
+article > h1{
+    color: #ffffff;
+    background-color: #D92C11;
+}
+
+article > h2 {
+    color: #ffffff;
+    background-color: #DF6755;
+}
+
+article > ul li {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    padding-right: 10px;
+    margin-left: 20px;
+}
+
+article > p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin: 5px;
+}
+ 
+.main > article img {
+    width: 60%;
+    height: 45vh;
+}
+
+footer{
+    background-color: #A6220D;
+    color: white;
+}
+
+footer > p {
+    text-align: center;
+    font-style: italic;
+    
+}
+
+#fim {
+    font-size: 45px;
+    text-align: center;
+}
